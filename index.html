@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>beatstore</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Roboto&display=swap');
+  </style>
+</head>
+
+<body onload="variables()">
+  <div class="image-gallery">
+
+    <!-- song 1 -->
+    <div id="song1" class="imageborder" onclick="changeSong('./songs/song1.mp3', 'Song 1')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/8.png" alt="Image 1" class="image">
+      <h1 class="beattitle">Song 1</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 2 -->
+    <div id="song2" class="imageborder" onclick="changeSong('./songs/song2.mp3', 'Song 2')">
+      
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/2.png" alt="Image 2" class="image">
+      <h1 class="beattitle">Song 2</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 3 -->
+    <div id="song3" class="imageborder" onclick="changeSong('./songs/song3.mp3', 'Song 3')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/3.png" alt="Image 3" class="image">
+      <h1 class="beattitle">Song 3</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 4 -->
+    <div id="song4" class="imageborder" onclick="changeSong('./songs/song4.mp3', 'Song 4')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/4.png" alt="Image 4" class="image">
+      <h1 class="beattitle">Song 4</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 5 -->
+    <div id="song5" class="imageborder" onclick="changeSong('./songs/song5.mp3', 'Song 5')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/5.png" alt="Image 5" class="image">
+      <h1 class="beattitle">Song 5</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 6 -->
+    <div id="song6" class="imageborder" onclick="changeSong('./songs/song6.mp3', 'Song 6')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/6.png" alt="Image 6" class="image">
+      <h1 class="beattitle">Song 6</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+    <!-- song 7-->
+    <div id="song7" class="imageborder" onclick="changeSong('./songs/song7.mp3', 'Song 7')">
+
+      <!-- play button  -->
+      <img src="./images/play.png" alt="Play" class="playtrack">
+
+      <!-- track image & title  -->
+      <img src="./images/7.png" alt="Image 7" class="image">
+      <h1 class="beattitle">Song 7</h1>
+
+      <!-- add to cart button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/addtocart.png" alt="Add to Cart" class="buynow" id="image-button" />
+          <h1 class="addtext">BUY</h1>
+        </button></a>
+
+      <!-- free download button  -->
+      <a href="http://ver2ion.xyz/">
+        <button class="buttonstyle">
+          <img src="./images/download.png" alt="Free Download" class="freedownload" id="freedownload" />
+        </button></a>
+    </div>
+
+
+  </div>
+
+
+  <!-- navbar  -->
+  <nav class="navbar">
+    <div class="music-player">
+      <h2 id="song-title">ver2ion.xyz</h2>
+      <div class="audiobuttons">
+        <audio id="audio-player"></audio>
+        <!-- play button -->
+        <input type="image" class="btn" id="play-btn" src="./images/play.png">
+        <!-- pause button -->
+        <input type="image" class="btn" id="pause-btn" src="./images/pause.png">
+
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    // JavaScript logic for the music player
+    const audioPlayer = document.getElementById('audio-player');
+    const playButton = document.getElementById('play-btn');
+    const pauseButton = document.getElementById('pause-btn');
+    const songTitle = document.getElementById('song-title');
+
+    function playSong() {
+      audioPlayer.play();
+    }
+
+    function pauseSong() {
+      audioPlayer.pause();
+    }
+
+    function changeSong(songSrc, title) {
+      audioPlayer.src = songSrc;
+      songTitle.textContent = title;
+      playSong();
+    }
+
+    playButton.addEventListener('click', playSong);
+    pauseButton.addEventListener('click', pauseSong);
+  </script>
+</body>
+
+</html>
